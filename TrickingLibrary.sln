@@ -5,6 +5,39 @@ VisualStudioVersion = 16.0.31702.278
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrickingLibrary.Api", "TrickingLibrary.Api\TrickingLibrary.Api.csproj", "{219F00CF-4888-4D2C-BD86-1553C3AC30CF}"
 EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "web-client", "web-client\", "{7CC175B8-C907-4282-B691-92372BAEAC2A}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_58890"
+		Debug.AspNetCompiler.PhysicalPath = "web-client\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_58890\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_58890"
+		Release.AspNetCompiler.PhysicalPath = "web-client\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_58890\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "58890"
+		SlnRelativePath = "web-client\"
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3D86F433-3B5F-428F-988A-EA6BDC91C330}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{1D399918-C0F7-4F5D-8963-561F6FAC5038}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{BF4E9C46-CE6F-4B87-BC0E-4B6E5FC7A33B}"
+	ProjectSection(SolutionItems) = preProject
+		build.yaml = build.yaml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +48,16 @@ Global
 		{219F00CF-4888-4D2C-BD86-1553C3AC30CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{219F00CF-4888-4D2C-BD86-1553C3AC30CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{219F00CF-4888-4D2C-BD86-1553C3AC30CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CC175B8-C907-4282-B691-92372BAEAC2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CC175B8-C907-4282-B691-92372BAEAC2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CC175B8-C907-4282-B691-92372BAEAC2A}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CC175B8-C907-4282-B691-92372BAEAC2A}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BF4E9C46-CE6F-4B87-BC0E-4B6E5FC7A33B} = {1D399918-C0F7-4F5D-8963-561F6FAC5038}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F1E1F65E-77B8-4D44-A391-80E51A5447A1}
