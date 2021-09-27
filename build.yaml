@@ -1,7 +1,5 @@
 name: Build My Application
-
 on: push
-
 jobs:
   build:
     name: Build our App
