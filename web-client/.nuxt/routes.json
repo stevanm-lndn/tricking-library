@@ -1,0 +1,16 @@
+[
+  {
+    "name": "inspire",
+    "path": "/inspire",
+    "component": "C:\\\\Projects_Stevan\\\\TrickingLibrary\\\\web-client\\\\pages\\\\inspire.vue",
+    "chunkName": "pages/inspire",
+    "_name": "_1550ed27"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "C:\\\\Projects_Stevan\\\\TrickingLibrary\\\\web-client\\\\pages\\\\index.vue",
+    "chunkName": "pages/index",
+    "_name": "_ae70df42"
+  }
+]
