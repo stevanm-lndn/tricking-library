@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31702.278
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrickingLibrary.Api", "TrickingLibrary.Api\TrickingLibrary.Api.csproj", "{219F00CF-4888-4D2C-BD86-1553C3AC30CF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrickingLibrary.Api", "TrickingLibrary.Api\TrickingLibrary.Api.csproj", "{219F00CF-4888-4D2C-BD86-1553C3AC30CF}"
 EndProject
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "web-client", "web-client\", "{7CC175B8-C907-4282-B691-92372BAEAC2A}"
 	ProjectSection(WebsiteProperties) = preProject
@@ -34,9 +34,6 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{1D399918-C0F7-4F5D-8963-561F6FAC5038}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{BF4E9C46-CE6F-4B87-BC0E-4B6E5FC7A33B}"
-	ProjectSection(SolutionItems) = preProject
-		build.yaml = build.yaml
-	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
